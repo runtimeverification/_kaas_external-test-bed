@@ -41,7 +41,6 @@
         - name: 'Check out code'
           uses: actions/checkout@v4
           with:
-            token: ${{ secrets.JENKINS_GITHUB_PAT }}
             fetch-depth: 0
   
         - name: Report Pending Status
